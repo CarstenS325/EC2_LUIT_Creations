@@ -1,6 +1,6 @@
 import boto3
 
-cloudfront = boto2.client('clouldfront')
+cloudfront = boto3.client('clouldfront')
 
 distributionlist = response['Vpcs']
 
