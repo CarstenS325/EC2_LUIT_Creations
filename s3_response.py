@@ -5,3 +5,6 @@ s3_client.client('s3')
 response = s3.list_buckets()
 
 print(response)
+
+for bucket in buckets:
+    print(bucket)
